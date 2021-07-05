@@ -1,5 +1,6 @@
 using System;
 using Xtz.StronglyTyped.BuiltinTypes.Address;
+using Xtz.StronglyTyped.BuiltinTypes.Internet;
 
 namespace SampleProjects.EntityFrameworkApp.V1.WeatherForecast
 {
@@ -13,6 +14,9 @@ namespace SampleProjects.EntityFrameworkApp.V1.WeatherForecast
 
         // NOTE: `City` type comes from `Xtz.StronglyTyped.BuiltinTypes` package
         public City City { get; set; }
+
+        // NOTE: `Email` type comes from `Xtz.StronglyTyped.BuiltinTypes` package
+        public Email Email { get; set; }
 
         public DateTime Date { get; set; }
 
