@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xtz.StronglyTyped.BuiltinTypes" Version="0.0.12-rc" />
-    <PackageReference Include="Xtz.StronglyTyped.SourceGenerator" Version="0.0.12-rc" />
+    <PackageReference Include="Xtz.StronglyTyped.BuiltinTypes" Version="0.15.1" />
+    <PackageReference Include="Xtz.StronglyTyped.SourceGenerator" Version="0.15.1" />
   </ItemGroup>
 
 </Project>

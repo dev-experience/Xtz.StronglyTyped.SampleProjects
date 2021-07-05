@@ -8,8 +8,8 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0" />
     <PackageReference Include="NUnit" Version="3.13.2" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
-    <PackageReference Include="Xtz.StronglyTyped.BuiltinTypes" Version="0.0.12-rc" />
-    <PackageReference Include="Xtz.StronglyTyped.BuiltinTypes.AutoFixture" Version="0.0.12-rc" />
+    <PackageReference Include="Xtz.StronglyTyped.BuiltinTypes" Version="0.15.1" />
+    <PackageReference Include="Xtz.StronglyTyped.BuiltinTypes.AutoFixture" Version="0.15.1" />
   </ItemGroup>
 
 </Project>

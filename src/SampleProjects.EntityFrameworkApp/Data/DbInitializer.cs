@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using SampleProjects.EntityFrameworkApp.V1.WeatherForecast;
 using Xtz.StronglyTyped.BuiltinTypes.Address;
+using Xtz.StronglyTyped.BuiltinTypes.Internet;
 
 namespace SampleProjects.EntityFrameworkApp.Data
 {
@@ -35,6 +36,7 @@ namespace SampleProjects.EntityFrameworkApp.Data
                         // NOTE: To create a new Guid we call custom static method `WeatherForecastStructId.New()`
                         StructId = WeatherForecastStructId.New(),
                         City = city,
+                        Email = new Email("bob@example.com"),
                         Date = DateTime.Now.AddDays(index),
                         // NOTE: You can cast to `DegreesCelsius` explicitly
                         TemperatureC = (DegreesCelsius)rng.Next(-20, 55),
