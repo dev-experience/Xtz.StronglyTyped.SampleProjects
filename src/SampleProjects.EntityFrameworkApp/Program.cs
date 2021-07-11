@@ -12,6 +12,7 @@ namespace SampleProjects.EntityFrameworkApp
         public static void Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
+            // NOTE: Ensure DB created and seeded with data
             EnsureDb(host);
             host.Run();
         }

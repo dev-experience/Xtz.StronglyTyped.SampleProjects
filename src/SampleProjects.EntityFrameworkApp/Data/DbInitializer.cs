@@ -11,6 +11,7 @@ namespace SampleProjects.EntityFrameworkApp.Data
     {
         public static void Initialize(AppDbContext context)
         {
+            context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
 
             if (context.WeatherForecasts.Any())

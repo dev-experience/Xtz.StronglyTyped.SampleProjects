@@ -1,20 +1,11 @@
 ﻿using System;
-using System.ComponentModel;
 using Xtz.StronglyTyped.BuiltinTypes.Ids;
-using Xtz.StronglyTyped.TypeConverters;
+using Xtz.StronglyTyped.SourceGenerator;
 
 namespace SampleProjects.AppSettingsApp.Models
 {
-    [TypeConverter(typeof(TypeConverter<InstanceId, Guid>))]
-    public sealed class InstanceId : GuidId
+    [StrongType(typeof(Guid))]
+    public partial class InstanceId : GuidId
     {
-        public InstanceId(Guid value)
-            : base(value)
-        {
-        }
-
-        public InstanceId()
-        {
-        }
     }
 }

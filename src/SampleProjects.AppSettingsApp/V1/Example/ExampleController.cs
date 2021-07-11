@@ -20,6 +20,7 @@ namespace SampleProjects.AppSettingsApp.V1.Example
             _appSettings = appSettings;
             _logger = logger;
 
+            // NOTE: Logging for demo purposes
             _logger.LogInformation($"{nameof(AppSettings)}:\nCity = {_appSettings.Value.City}\nSchemaId = {_appSettings.Value.SchemaId}\nAdministratorEmail = {_appSettings.Value.AdministratorEmail}\nInstanceId = {_appSettings.Value.InstanceId}");
         }
 
