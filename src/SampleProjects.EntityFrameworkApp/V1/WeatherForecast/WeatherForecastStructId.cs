@@ -1,5 +1,5 @@
 using System;
-using Xtz.StronglyTyped;
+using Xtz.StronglyTyped.SourceGenerator;
 
 namespace SampleProjects.EntityFrameworkApp.V1.WeatherForecast
 {

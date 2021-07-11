@@ -1,4 +1,4 @@
-using Xtz.StronglyTyped;
+using Xtz.StronglyTyped.SourceGenerator;
 
 namespace SampleProjects.Example.SwaggerApiApp.V1.WeatherForecast
 {

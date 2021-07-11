@@ -19,8 +19,8 @@ namespace SampleProjects.AppSettingsApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Configure custom strongly-typed config section
-            // Check `AppSettings` class for strong types and `appsettings.json` file for strongly-typed values
+            // NOTE: Configure custom strongly-typed config section
+            // NOTE: See `AppSettings` class for strong types and `appsettings.json` file for strongly-typed values
             services.Configure<AppSettings>(Configuration.GetSection("SampleProjects.AppSettingsApp"));
 
             services.AddControllers();
