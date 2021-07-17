@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/dev-experience/Xtz.StronglyTyped.SampleProjects)
 
-Sample projects to show-case [https://github.com/dev-experience/Xtz.StronglyTyped](Xtz.StronglyTyped) libraries.
+Sample projects to show-case [Xtz.StronglyTyped](https://github.com/dev-experience/Xtz.StronglyTyped) libraries.
 
 > **Xtz.StronglyTyped**
 >
