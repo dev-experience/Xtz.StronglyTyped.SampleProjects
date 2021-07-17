@@ -22,16 +22,23 @@ Sample projects to show-case [https://github.com/dev-experience/Xtz.StronglyType
 > | **Xtz.StornglyTyped.BuiltinTypes.AutoFixture** | [![NuGet](http://img.shields.io/nuget/v/Xtz.StronglyTyped.BuiltinTypes.AutoFixture.svg)](https://www.nuget.org/packages/Xtz.StronglyTyped.BuiltinTypes.AutoFixture/) |
 > | **Xtz.StornglyTyped.BuiltinTypes.Bogus**       | [![NuGet](http://img.shields.io/nuget/v/Xtz.StronglyTyped.BuiltinTypes.Bogus.svg)](https://www.nuget.org/packages/Xtz.StronglyTyped.BuiltinTypes.Bogus/)             |
 > | **Xtz.StornglyTyped.EntityFramework**          | [![NuGet](http://img.shields.io/nuget/v/Xtz.StronglyTyped.EntityFramework.svg)](https://www.nuget.org/packages/Xtz.StronglyTyped.EntityFramework/)                   |
+> | **Xtz.StronglyTyped.NewtonsoftJson**           | [![NuGet](http://img.shields.io/nuget/v/Xtz.StronglyTyped.NewtonsoftJson.svg)](https://www.nuget.org/packages/Xtz.StronglyTyped.NewtonsoftJson/)                     |
 > | **Xtz.StornglyTyped.SourceGenerator**          | [![NuGet](http://img.shields.io/nuget/v/Xtz.StronglyTyped.SourceGenerator.svg)](https://www.nuget.org/packages/Xtz.StronglyTyped.SourceGenerator/)                   |
 > | **Xtz.StornglyTyped.Swashbuckle**              | [![NuGet](http://img.shields.io/nuget/v/Xtz.StronglyTyped.Swashbuckle.svg)](https://www.nuget.org/packages/Xtz.StronglyTyped.Swashbuckle/)                           |
 
 ## Sample projects
 
-### Web API application
+### Web API application (.NET 5.0, System.Text.Json)
 
 Strongly-typed API requests and responses.
 
 [SampleProjects.ApiApp](./src/SampleProjects.ApiApp)
+
+### Web API application (.NET Core 3.1, Newtonsoft.Json)
+
+Strongly-typed API requests and responses.
+
+[SampleProjects.ApiNewtonsoftJsonApp](./src/SampleProjects.ApiNewtonsoftJsonApp)
 
 ### Application configuration
 
