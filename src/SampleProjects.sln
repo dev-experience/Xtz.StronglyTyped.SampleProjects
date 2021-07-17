@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProjects.BogusConsole
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProjects.EntityFrameworkApp", "SampleProjects.EntityFrameworkApp\SampleProjects.EntityFrameworkApp.csproj", "{DE2D4C5F-2FC0-4959-B89B-37BB8E3AF40A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProjects.Example.SwaggerApiApp", "SampleProjects.Example.SwaggerApiApp\SampleProjects.Example.SwaggerApiApp.csproj", "{0F946ED9-96CB-4CB5-9A25-B5529CE1EC1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProjects.SwaggerApiApp", "SampleProjects.SwaggerApiApp\SampleProjects.SwaggerApiApp.csproj", "{9C5AB83A-A745-4A77-A5EC-0849BFA0B880}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProjects.ApiNewtonsoftJsonApp", "SampleProjects.ApiNewtonsoftJsonApp\SampleProjects.ApiNewtonsoftJsonApp.csproj", "{15986CEE-BA17-4924-B661-7DE3E8853CE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +43,14 @@ Global
 		{DE2D4C5F-2FC0-4959-B89B-37BB8E3AF40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE2D4C5F-2FC0-4959-B89B-37BB8E3AF40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE2D4C5F-2FC0-4959-B89B-37BB8E3AF40A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F946ED9-96CB-4CB5-9A25-B5529CE1EC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F946ED9-96CB-4CB5-9A25-B5529CE1EC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F946ED9-96CB-4CB5-9A25-B5529CE1EC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F946ED9-96CB-4CB5-9A25-B5529CE1EC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5AB83A-A745-4A77-A5EC-0849BFA0B880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5AB83A-A745-4A77-A5EC-0849BFA0B880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5AB83A-A745-4A77-A5EC-0849BFA0B880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5AB83A-A745-4A77-A5EC-0849BFA0B880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15986CEE-BA17-4924-B661-7DE3E8853CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15986CEE-BA17-4924-B661-7DE3E8853CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15986CEE-BA17-4924-B661-7DE3E8853CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15986CEE-BA17-4924-B661-7DE3E8853CE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
