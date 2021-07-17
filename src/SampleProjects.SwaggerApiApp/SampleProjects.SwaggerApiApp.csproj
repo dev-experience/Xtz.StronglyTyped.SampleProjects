@@ -5,8 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
     <PackageReference Include="Xtz.StronglyTyped.SourceGenerator" Version="0.23.0" />
     <PackageReference Include="Xtz.StronglyTyped.BuiltinTypes" Version="0.23.0" />
+    <PackageReference Include="Xtz.StronglyTyped.Swashbuckle" Version="0.23.0" />
   </ItemGroup>
 
 </Project>
